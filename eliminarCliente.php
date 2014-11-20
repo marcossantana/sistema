@@ -9,7 +9,7 @@
 	$res = mysql_query($sql);
 
 	if ( isset($res) )
-		echo "Correcto";
+		echo "Certo";
 	else
-		echo "Incorrecto";
+		echo "Errado";
 ?>
